@@ -11,8 +11,6 @@ class Results extends React.Component {
     super(props);
     //Define the initiale state
     this.state = {
-      name: "Hello",
-      id: "222",
       pets: []
     };
   }
@@ -46,7 +44,7 @@ class Results extends React.Component {
   }
   render() {
     setTimeout(() => {
-      this.setState({ name: "Welcome to my web site", id: "555" });
+      this.setState({ name: "Welcome to my web site" });
     }, 2000);
 
     return (
